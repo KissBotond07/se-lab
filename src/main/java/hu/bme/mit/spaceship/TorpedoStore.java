@@ -52,10 +52,12 @@ public class TorpedoStore {
     return success;
   }
 
+  //ellenorzi, hogy elfogytak-e a torpedok
   public boolean isEmpty(){
     return this.torpedoCount <= 0;
   }
 
+  //megadja a torpedok szamat
   public int getTorpedoCount() {
     return this.torpedoCount;
   }
